@@ -10,6 +10,7 @@ function redirectToPage(url) {
 function createButton(text, page,className) {
     var currentRootPath = "https://vividmeu.xsrv.jp/"
     //var currentRootPath = "https://meu-my.github.io/page/"
+    var currentRootPath = "https://randvivid.github.io/rand.io/"
     //var currentRootPath = "file:///M:/web/";
     var path = currentRootPath+page+".html"
     
@@ -22,8 +23,9 @@ function createButton(text, page,className) {
 
 //アイコンを作成
 function createLinkIcon(img, page) {
-    var currentRootPath = "https://vividmeu.xsrv.jp/img"
+    //var currentRootPath = "https://vividmeu.xsrv.jp/img"
     //var currentRootPath = "https://meu-my.github.io/page/img"
+    var currentRootPath = "https://randvivid.github.io/rand.io/img"
     //var currentRootPath = "file:///M:/web/img";
     var pagePath = "https://"+page
     var imgPath = currentRootPath+"/"+img+".png"

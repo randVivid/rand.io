@@ -27,7 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //  サブメニューアイコンを作成
     function createSubMenuIcon() {
-        var currentRootPath = "https://vividmeu.xsrv.jp/img"
+        //var currentRootPath = "https://vividmeu.xsrv.jp/img"
+        var currentRootPath = "https://randvivid.github.io/rand.io/img"
         //var currentRootPath = "https://meu-my.github.io/page/img"
         //var currentRootPath = "file:///M:/web/img";
         var imgPath = currentRootPath+"/subMenu_icon_black.png"
@@ -49,7 +50,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const subMenu = document.querySelector('header .subMenu_icon');
     const subMenuImg = document.querySelector('header .subMenu_icon img');
     
-    var currentRootPath = "https://vividmeu.xsrv.jp/img"
+    //var currentRootPath = "https://vividmeu.xsrv.jp/img"
+    var currentRootPath = "https://randvivid.github.io/rand.io/img"
     //var currentRootPath = "https://meu-my.github.io/page/img"
     //var currentRootPath = "file:///M:/web/img";
     var hoverImageSrc = currentRootPath+"/subMenu_icon_white.png"
