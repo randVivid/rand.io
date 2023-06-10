@@ -8,7 +8,7 @@ function redirectToPage(url) {
 
 //ボタンを作成
 function createButton(text, page,className) {
-    var currentRootPath = "https://vividmeu.xsrv.jp/"
+    //var currentRootPath = "https://vividmeu.xsrv.jp/"
     //var currentRootPath = "https://meu-my.github.io/page/"
     var currentRootPath = "https://randvivid.github.io/rand.io/"
     //var currentRootPath = "file:///M:/web/";
