@@ -1,0 +1,70 @@
+
+.subMenu{
+    top:0;
+    right:0;
+    height: 100%;
+    width: 250px;
+    z-index: 50;
+    translate:0%;
+    transform: translateX(100%);
+    animation-timing-function: ease-in-out; /* 3. アニメーションのタイミングを指定 */
+    position: fixed;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.subMenu .contents{
+    margin-top: 80px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.subMenu .button{
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding-left: 20px;
+    text-align: left;
+    color:var(--maincolor);
+    background-color: rgb(255, 255, 255);
+    font-size: var(--fontSize);
+}
+.subMenu .button:hover {
+    color: white;
+    background-color: var(--maincolor);
+}
+
+.subMenu .accountButton{
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    color:var(--maincolor);
+    background-color: rgb(255, 255, 255);
+    font-size: var(--fontSize);
+}
+.subMenu .accountButton:hover {
+    color: white;
+    background-color: var(--maincolor);
+}
+
+.subMenu .loginButton{
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+    color:var(--maincolor);
+    background-color: rgb(255, 255, 255);
+    font-size: var(--fontSize);
+}
+.subMenu .loginButton:hover {
+    color: white;
+    background-color: var(--maincolor);
+}

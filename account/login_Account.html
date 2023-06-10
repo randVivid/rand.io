@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="JP">
+    <meta http-equiv="content-type" charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>login_Account</title>
+    <link href="../base.css" rel="stylesheet" type="text/css">
+    <link href="../header.css" rel="stylesheet" type="text/css">
+    <link href="../footer.css" rel="stylesheet" type="text/css">
+    <link href="../subMenu.css" rel="stylesheet" type="text/css">
+    <script src="../commonFunction.js"></script>
+</head>
+
+<body>
+    <script src="../header.js"></script>
+    <script src="../footer.js"></script>
+    <script src="../subMenu.js"></script>
+    
+    <main>
+        <label for="email">メールアドレス:</label>
+        <input type="email" id="email" required>
+        
+        <label for="password">パスワード:</label>
+        <input type="password" id="password" required>
+        
+        <button onclick="redirectToPage('forget_Password.html')">パスワードを忘れた</button>
+        <button onclick="redirectToPage('create_Account.html')">アカウントを作成</button>
+        <button onclick="redirectToPage('../index.html')">ログイン</button>
+    </main>
+
+</body>
+</html>

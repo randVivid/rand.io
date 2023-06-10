@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="JP">
+    <meta http-equiv="content-type" charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>文字化けメーカー</title>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    
+    <link href="../../base.css" rel="stylesheet" type="text/css">
+    <link href="mojibake.css" rel="stylesheet" type="text/css">
+    <link href="../../header.css" rel="stylesheet" type="text/css">
+    <link href="../../footer.css" rel="stylesheet" type="text/css">
+    <link href="../../subMenu.css" rel="stylesheet" type="text/css">
+    <script src="../../commonFunction.js"></script>
+    
+    <py-config>
+        [[fetch]]
+        files = ["./mojibake.py"]
+    </py-config>
+    <py-script src="./mojibake.py"></py-script>
+</head>
+
+<body>
+    <script src="../../header.js"></script>
+    <script src="../../footer.js"></script>
+    <script src="../../subMenu.js"></script>
+
+    <main>
+        <h1>文字化けメーカー</h1>
+        <p>文字→文字化け、文字化け→文字への変換ができます</p>
+        <textarea type="text" id="inputText1" rows="5" placeholder="文字化け前"></textarea>
+        <button py-click="text_garbled()">文字化け</button>
+        <textarea type="text" id="inputText2" rows="5" placeholder="文字化け後"></textarea>
+        <button py-click="text_repair()">文字修正</button>
+        <textarea type="text" id="outputText" rows="5" placeholder="修正後"></textarea>
+    </main>
+
+</body>
+
+</html>
