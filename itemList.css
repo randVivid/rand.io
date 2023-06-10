@@ -4,7 +4,7 @@
     .container {
         width: 100%-10%;
         height: 300px;  
-        margin: 50px 10%;/*アイテム同士の幅*/
+        margin: 50px 0px;/*アイテム同士の幅*/
         border: none;
         border-radius: 10px; /* 角を丸くする */
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
